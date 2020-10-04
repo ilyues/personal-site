@@ -67,10 +67,11 @@ h1 {
 }
 
 .Projects {
+  text-align: left;
   margin-right: 0px;
   margin-top: 15px;
   float: right;
-  width: 40%;
+  width: 300;
   padding: 5;
 }
 

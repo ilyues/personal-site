@@ -36,10 +36,11 @@ function App() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>ISABEL 玥 LI</title>
-        <link rel="canonical" href="http://mysite.com/example" />
+        <link rel="canonical" href="ilyues.github.io/personal-site" />
+        <link rel="icon" type="image/png" href={circle} sizes="16x16" />
       </Helmet>
       
-      <div className="fade-in"></div> <div className="About">
+      <div className="About">
       
       <Ab
         image ={circle}

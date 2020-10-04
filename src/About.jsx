@@ -65,7 +65,8 @@ export default function About(props) {
                 </div>
                 <div className="descrip">{render()}</div> 
                 <div className="contact"><span role="img" aria-label="mail" className="emoji">📬</span> <a href="mailto:ilyues@berkeley.edu">ilyues@berkeley.edu</a>
-                <p><span role="img" aria-label="peace" className="emoji">🕊️</span> <a href="https://twitter.com/ILYUES/">@ILYUES</a></p></div> 
+                <p><span role="img" aria-label="peace" className="emoji">🕊️</span> <a href="https://twitter.com/ILYUES/">@ILYUES</a></p>
+                <p><span role="img" aria-label="art" className="emoji">🎨</span> <a href="https://isabel.li/">Portfolio</a></p></div> 
             </div>
         </div>
     );
