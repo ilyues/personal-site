@@ -1,0 +1,9 @@
+.Proj {
+    align-content: center;
+}
+
+.proj-image {
+    border-radius: 150px;
+    width: 300px;
+    height: 300px;
+}

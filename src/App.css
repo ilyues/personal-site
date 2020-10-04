@@ -1,5 +1,9 @@
 
 
+body {
+  background-color: #F9FAFD;
+}
+
 .App {
   text-align: center;
   background-color: #F9FAFD;
@@ -9,15 +13,13 @@
   font-size: calc(10px + 2vmin);
 }
 
-
-/* .App {
-  position: relative;
-  display: block;
-  background-color: #F9FAFD;
-  margin: auto;
-  width: 50%;
-  max-width: 940px
-} */
+h1 {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 800;
+  font-size: 28pt;
+  letter-spacing: 0.5pt;
+  color: #092E50;
+}
 
 .About {
   position: relative;
@@ -25,20 +27,51 @@
   margin: 5px;
   max-width: 1080px;
   top: 50px;
-  left: 200px;
-  margin-bottom: 200px;
-  /* text-align: center; */
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
+  align-self: center;
+  margin-bottom: 100px;
   font-size: calc(10px + 2vmin);
 }
+
+.shape {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 1000px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 50;
+  top: -10% !important;
+}
+
+
 
 .row {
   position: relative;
   margin: 5px;
+  max-width: 1080px;
+  display: block;
+  align-self: center;
   display: flex;
+}
+
+.Experiences {
+  float: left;
+  width: 800px;
+  margin: 15px;
+  padding: 5;
+  text-align: left;
+}
+
+.Projects {
+  margin-right: 0px;
+  margin-top: 15px;
+  float: right;
+  width: 40%;
+  padding: 5;
 }
 
 @media screen and (max-width: 600px) {
@@ -48,22 +81,38 @@
   }
 }
 
-.Projects {
-  float: left;
-  width: 66.66666%;
-  left: 10px;
-  margin: 15px;
-  padding: 5;
-  text-align: left;
+.shapes {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
 }
 
-.Experiences {
-  float: left;
-  width: 33.33333%;
-  right: 10px;
-  margin: 15px;
-  padding: 5;
-  text-align: left;
+.bg-shape {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -90% !important;
+  width: 95%;
+  right: 0;
+  z-index: -1;
+}
+.bg-shapes {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -90% !important;
+  width: 95%;
+  right: 0;
+  z-index: -1;
 }
 
 /* .App {

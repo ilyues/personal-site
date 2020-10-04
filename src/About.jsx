@@ -67,11 +67,6 @@ export default function About(props) {
                 <div className="contact"><span role="img" aria-label="mail" className="emoji">📬</span> <a href="mailto:ilyues@berkeley.edu">ilyues@berkeley.edu</a>
                 <p><span role="img" aria-label="peace" className="emoji">🕊️</span> <a href="https://twitter.com/ILYUES/">@ILYUES</a></p></div> 
             </div>
-            {/* {props.funfacts.map((fact, i) => (
-                <h4>
-                Fun fact {i + 1}: {fact}
-                </h4>
-            ))} */}
         </div>
     );
 }
