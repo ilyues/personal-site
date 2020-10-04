@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
   background-color: #F9FAFD;
@@ -7,19 +9,48 @@
   font-size: calc(10px + 2vmin);
 }
 
+
+/* .App {
+  position: relative;
+  display: block;
+  background-color: #F9FAFD;
+  margin: auto;
+  width: 50%;
+  max-width: 940px
+} */
+
 .About {
-  margin: 15px;
-  padding: 5;
-  text-align: center;
-  min-height: 100vh;
-  display: flex;
+  position: relative;
+  display: block;
+  margin: 5px;
+  max-width: 1080px;
+  top: 50px;
+  left: 200px;
+  margin-bottom: 200px;
+  /* text-align: center; */
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   font-size: calc(10px + 2vmin);
 }
 
+.row {
+  position: relative;
+  margin: 5px;
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .Projects
+  .Experiences {
+    width: 100%;
+  }
+}
+
 .Projects {
+  float: left;
+  width: 66.66666%;
   left: 10px;
   margin: 15px;
   padding: 5;
@@ -27,10 +58,12 @@
 }
 
 .Experiences {
+  float: left;
+  width: 33.33333%;
   right: 10px;
   margin: 15px;
   padding: 5;
-  text-align: right;
+  text-align: left;
 }
 
 /* .App {
