@@ -1,5 +1,40 @@
 .App {
   text-align: center;
+  background-color: #F9FAFD;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+}
+
+.About {
+  margin: 15px;
+  padding: 5;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.Projects {
+  left: 10px;
+  margin: 15px;
+  padding: 5;
+  text-align: left;
+}
+
+.Experiences {
+  right: 10px;
+  margin: 15px;
+  padding: 5;
+  text-align: right;
+}
+
+/* .App {
+  text-align: center;
 }
 
 .App-logo {
@@ -36,3 +71,4 @@
     transform: rotate(360deg);
   }
 }
+ */
