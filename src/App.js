@@ -1,6 +1,5 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
-import logo from './logo.svg';
 import './App.css';
 import './About.css';
 import './Exp.css';
@@ -36,8 +35,7 @@ function App() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>ISABEL 玥 LI</title>
-        <link rel="canonical" href="ilyues.github.io/personal-site" />
-        <link rel="icon" type="image/png" href={circle} sizes="16x16" />
+        <link id="favicon" rel="icon" type="image/png" href={circle} sizes="16x16" />
       </Helmet>
       
       <div className="About">
