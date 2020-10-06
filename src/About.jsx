@@ -18,14 +18,14 @@ export default function About(props) {
     }
 
     function render() {
-        if (words == 1) {
+        if (words === 1) {
             return (
                 <div>
                     I'm a Chinese artist / writer / designer / first-year computer science student. I was born (and am currently based) in Auckland, New Zealand - as a side effect, I've developed a strong attachment to the sky, the sea, and the colour blue.
                 </div>
             )
         }
-        if (words == 2) {
+        if (words === 2) {
             return (
                 <div>
                     I'm a first year computer science student at UC Berkeley and mentored developer @ Codebase. 
@@ -33,14 +33,14 @@ export default function About(props) {
                 </div>
             )
         }
-        if (words == 3) {
+        if (words === 3) {
             return (
                 <div>
                     I'm a writer @ Tearaway NZ, an e-magazine run by kiwi youth. You can also find my creative writing in the last 4 editions of Redraft, published by Clerestory Press.
                 </div>
             )
         }
-        if (words == 4) {
+        if (words === 4) {
             return (
                 <div>
                     i draw ! and paint and stuff ! my creative work focuses on social media and the human experience, identity, obligation, and abstraction. Or sometimes just things that are warm and fun; things that make your heart go "!". 
@@ -64,9 +64,11 @@ export default function About(props) {
                 <div className="tag">I <a href="#" className="clicker" onClick={handleClick2}>code</a>  / <a href="#" className="clicker" onClick={handleClick3}>write</a>  / <a href="#" className="clicker" onClick={handleClick4}>create</a>.
                 </div>
                 <div className="descrip">{render()}</div> 
-                <div className="contact"><span role="img" aria-label="mail" className="emoji">📬</span> <a href="mailto:ilyues@berkeley.edu">ilyues@berkeley.edu</a>
-                <p><span role="img" aria-label="peace" className="emoji">🕊️</span> <a href="https://twitter.com/ILYUES/">@ILYUES</a></p>
-                <p><span role="img" aria-label="art" className="emoji">🎨</span> <a href="https://isabel.li/">Portfolio</a></p></div> 
+                <div className="contact">
+                    <span role="img" aria-label="mail" className="emoji">📬</span> <a href="mailto:ilyues@berkeley.edu">ilyues@berkeley.edu</a>
+                    <br /><span role="img" aria-label="peace" className="emoji">🕊️</span> <a href="https://twitter.com/ILYUES/" target="_blank">@ILYUES</a>
+                    <br /><span role="img" aria-label="art" className="emoji">🎨</span> <a href="https://isabel.li/" target="_blank">Portfolio</a>
+                </div> 
             </div>
         </div>
     );

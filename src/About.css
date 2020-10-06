@@ -18,25 +18,33 @@
             transform: rotate(20deg);
   }
 
-/* .header {
-    flex: 50%;
-} */
+
 a:link {
-    color: #3C64B1;
+    color: #507ed3;
     text-decoration: none;
+    border-bottom: 0px solid #C4E7D6;
+    box-shadow: 0 -6px 0 #C4E7D6 inset;
 }
 a:hover {
-    color: #3C64B1;
-    text-decoration: underline;
+    color: #507ed3;
+    text-decoration: none;
+    border-bottom: 0px solid #d1f1e1;
+    box-shadow: 0 -6px 0 #d1f1e1 inset;
 }
 
 a:visited {
-    color: #3C64B1;
+    color: #507ed3;
+    text-decoration: none;
 }
 
 a.clicker:focus {
-    background-color: #FEC2AF;
+    /* background-color: #FEC2AF; */
+    background-color: #d1f1e1;
+    border-bottom: 0px solid #d1f1e1;
+    box-shadow: 0 -6px 0 #d1f1e1 inset;
 }
+
+
 
 .title {
     margin-left: -40px;
@@ -45,7 +53,13 @@ a.clicker:focus {
     font-size: 72pt;
     color: #092E50;
     padding: 0px;
-    line-height: 72pt;
+    line-height: 85pt;
+    z-index: 1;
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
 }
 
  .About {
@@ -74,6 +88,7 @@ a.clicker:focus {
     float: left;
     width: 55%;
     padding: 20px;
+
   }
   
   .portrait {
@@ -101,11 +116,10 @@ a.clicker:focus {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 11pt;
   }
-  .clicker, .tag, .contact {
+    .clicker, .tag, .contact {
     font-family: 'Inconsolata', monospace;
     font-weight: 500;
     font-size: 16px;
-    color: #3C64B1;
     font-stretch: expanded;
   }
 
@@ -114,7 +128,9 @@ a.clicker:focus {
   }
 
   .clicker {
-    background-color: #C4E7D6;
+    color:  #507ed3;
+    border-bottom: 1px solid #C4E7D6;
+    box-shadow: 0 -6px 0 #C4E7D6 inset;
   }
 
   .contact {
@@ -122,12 +138,17 @@ a.clicker:focus {
         position: relative;
         margin-top: 125px;
         text-transform: none;
+        
+    }
+
+    .tag {
+            color: #0a4780;
     }
 
 
   .emoji {
       font-size: 20px;
-      line-height: 8px;
+      line-height: 22px;
   }
 
   /* .About {

@@ -82,76 +82,96 @@ h1 {
   }
 }
 
-.shapes {
+.path1, .path2 {
   position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
   width: 100%;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   pointer-events: none;
+  z-index: 2;
+}
+
+.path1 {
+  right: 0;
+  width: 96%;
+  top: -90%;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash1 5s linear forwards;
+}
+
+.path2 {
+  stroke-dashoffset: 1000;
+  stroke-dasharray: 1000;
+  animation: dash2 10s linear forwards;
+  left: -35%;
+  bottom: -50%;
+}
+
+@keyframes dash1 {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash2 {
+  
+  to {
+    stroke-dashoffset: 0;
+  }
 }
 
 .bg-shape {
-  position: fixed;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  top: -90% !important;
-  width: 95%;
-  right: 0;
-  z-index: -1;
-}
-.bg-shapes {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top: -90% !important;
-  width: 95%;
-  right: 0;
-  z-index: -1;
 }
 
-/* .App {
-  text-align: center;
+.App {
+-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
-.App-link {
-  color: #61dafb;
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
- */
+
+  .Projects, .Experiences {
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+  z-index: 1;
+}
