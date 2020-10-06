@@ -7,7 +7,7 @@ export default function Proj(props) {
         <div className="Proj">
             <img src={props.image} className="proj-image" alt="illust" />
             <div className="name">{props.title}</div>
-            <div className="descrip">{props.descrip}</div> 
+            <div className="proj-descrip">{props.descrip}</div> 
         </div>
     );
 }

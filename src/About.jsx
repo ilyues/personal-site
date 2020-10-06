@@ -21,29 +21,29 @@ export default function About(props) {
         if (words === 1) {
             return (
                 <div>
-                    I'm a Chinese artist / writer / designer / first-year computer science student. I was born (and am currently based) in Auckland, New Zealand - as a side effect, I've developed a strong attachment to the sky, the sea, and the colour blue.
+                    Creative & computer science student. <br />Born (and currently based) in Auckland, NZ.
+                    <br />Here to uplift BIPOC + LGBTQ/SGL communities.
                 </div>
             )
         }
         if (words === 2) {
             return (
                 <div>
-                    I'm a first year computer science student at UC Berkeley and mentored developer @ Codebase. 
-                    I'm interested in .. things
+                    I'm a first year computer science student at <a href="http://berkeley.edu" target="_blank">UC Berkeley</a> and mentored developer @ <a href="http://codebase.berkeley.edu/" target="_blank">Codebase</a>. 
                 </div>
             )
         }
         if (words === 3) {
             return (
                 <div>
-                    I'm a writer @ Tearaway NZ, an e-magazine run by kiwi youth. You can also find my creative writing in the last 4 editions of Redraft, published by Clerestory Press.
+                    Sometimes I write (and draw) for <a href="https://tearaway.co.nz/" target="_blank">Tearaway NZ</a>. You can also find my creative writing in the last 4 editions of <a href="http://clerestorypress.co.nz/redraft" target="_blank">Re-Draft</a>, published by Clerestory Press.
                 </div>
             )
         }
         if (words === 4) {
             return (
                 <div>
-                    i draw ! and paint and stuff ! my creative work focuses on social media and the human experience, identity, obligation, and abstraction. Or sometimes just things that are warm and fun; things that make your heart go "!". 
+                    I'm a freelance illustrator and graphic designer. I also have some experience in character design and architectural drawing. I love <a href="https://isabel.li/paper" target="_blank">oils and gouache</a>, and bring my <a href ="https://isabel.li/pixels" target="_blank">tablet</a> everywhere. 
                 </div>
             )
         }

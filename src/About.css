@@ -12,7 +12,6 @@
     -webkit-transition: -webkit-transform .8s ease-in-out;
     transition:         transform .8s ease-in-out;
   } 
-
 .image:hover {
     -webkit-transform: rotate(20deg);
             transform: rotate(20deg);
@@ -83,17 +82,19 @@ a.clicker:focus {
 
   .bio {
     margin-top: 50px;
-    margin-left: 35px;
+    margin-left: 45px;
     text-align: left;
     float: left;
-    width: 55%;
+    width: 100%;
     padding: 20px;
+    position: static;
 
   }
   
   .portrait {
+    margin-top: 15px;
     position: static;
-    width: 55%;
+    width: 45%;
     float: left;
     padding: 20px;
   }
@@ -111,7 +112,8 @@ a.clicker:focus {
   .descrip {
     color: #092E50;
     margin-top: 20px;
-    width: 350px;
+    position: absolute;
+    max-width: 400px;
     height: 35px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 11pt;
@@ -136,7 +138,7 @@ a.clicker:focus {
   .contact {
         line-height: 1px;
         position: relative;
-        margin-top: 125px;
+        margin-top: 105px;
         text-transform: none;
         
     }

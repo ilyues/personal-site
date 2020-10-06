@@ -75,10 +75,24 @@ h1 {
   padding: 5;
 }
 
-@media screen and (max-width: 600px) {
-  .Projects
+@media screen and (max-width: 1000px) {
   .Experiences {
+    position:relative;
+    float: none;
     width: 100%;
+    margin: 15px;
+    padding: 5;
+    text-align: left;
+  }
+  
+  .Projects {
+    position:relative;
+    text-align: left;
+    margin-right: 0px;
+    margin-top: 15px;
+    float: none;
+    width: 100%;
+    padding: 5;
   }
 }
 
@@ -94,7 +108,7 @@ h1 {
 }
 
 .path1 {
-  right: 0;
+  right: 0%;
   width: 96%;
   top: -90%;
   stroke-dasharray: 1000;

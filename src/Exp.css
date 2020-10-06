@@ -6,16 +6,18 @@
     margin-bottom: 25px;
     padding: 15px;
     margin-right:25px;
+    max-width: 650px;
 }
 
 .header {
     float: left;
-    width: 80%;
+    width: 60%;
 }
 
 .descrip {
+    padding-bottom: 50px;
     float: left;
-    width: 80%;
+    width: 60%;
 }
 
 .date {
