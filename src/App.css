@@ -11,6 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
+  margin-bottom: 250px;
 }
 
 h1 {
@@ -71,8 +72,9 @@ h1 {
   margin-right: 0px;
   margin-top: 15px;
   float: right;
-  width: 300;
+  width: 30%;
   padding: 5;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1000px) {

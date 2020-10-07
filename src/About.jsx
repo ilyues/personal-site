@@ -43,7 +43,7 @@ export default function About(props) {
         if (words === 4) {
             return (
                 <div>
-                    I'm a freelance illustrator and graphic designer. I also have some experience in character design and architectural drawing. I love <a href="https://isabel.li/paper" target="_blank">oils and gouache</a>, and bring my <a href ="https://isabel.li/pixels" target="_blank">tablet</a> everywhere. 
+                    I'm a freelancer with experience in visual arts and various forms of design (character, graphic, architectural...) Also a graphic designer with <a href="http://innovativedesign.club/" target="_blank">Innovative Design</a>. I love <a href="https://isabel.li/paper" target="_blank">oils and gouache</a>, and bring my <a href ="https://isabel.li/pixels" target="_blank">tablet</a> everywhere. 
                 </div>
             )
         }

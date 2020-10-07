@@ -10,6 +10,7 @@ import circle from "./assets/circle.png";
 import proj1 from "./assets/proj1.png";
 import proj2 from "./assets/proj2.png";
 import proj3 from "./assets/proj3.png";
+import proj4 from "./assets/proj4.png";
 
 /*   function App() {
   return (
@@ -56,40 +57,52 @@ function App() {
                 </h4>
             ))} */}
           <Exp 
-            title="exp 1"
-            date="2000"
-            descrip="exp 1 descrip"
+            title="freelance illustrator + designer"
+            date="2017 — present"
+            descrip="CREATE"
           />
           <Exp 
-            title="exp 2"
-            date="2000"
-            descrip="exp 2 descrip"
+            title="mentored developer @ berkeley codebase"
+            date="sep 20 — present"
+            descrip="CODE"
           />
           <Exp 
-            title="exp 3"
-            date="2000"
-            descrip="exp 3 descrip"
+            title="graphic designer @ berkeley innoD blue team"
+            date="sep 20 — present"
+            descrip="CREATE"
+          />
+
+          <Exp 
+            title="dep. communications lead @ howick youth council"
+            date="jan 19 — dec 19"
+            descrip="CREATE + WRITE"
           />
         
         </div>
         <div className="Projects">
-          <h1>Projects</h1>
-          <Proj 
-            image={proj1}
-            name="proj 1"
-            descrip="proj 1 descrip"
-            link=""
-          />
+          <h1>Work</h1>
           <Proj 
             image={proj2}
-            name="proj 2"
-            descrip="proj 2 descrip"
-            link=""
+            name='"HAM BUR BUR" p5.js game'
+            descrip='Game inspired by "oreo grammar" meme, made with p5 library.'
+            link="https://ilyues.github.io/hambur/"
           />
           <Proj 
             image={proj3}
-            name="proj 3"
-            descrip="proj 3 descrip"
+            name="How We Fall Apart Character Illustrations"
+            descrip="More info soon. A series of character card designs for Katie Zhao's upcoming YA novel campaign. Progress updates on Twitter."
+            link=""
+          />
+          <Proj 
+            image={proj4}
+            name="CoFED Project"
+            descrip="More info soon. Codebase team project. A tool for BIPOC food co-ops, food producers, and food distributors to share resources and information."
+            link=""
+          />
+          <Proj 
+            image={proj1}
+            name="Around the World! Illustration Zine Project"
+            descrip="Fan zine project with 40 international artists, proceeds donated to hurrican relief fund. Illustration, graphic design, sales, and social media marketing."
             link=""
           />
         </div>
