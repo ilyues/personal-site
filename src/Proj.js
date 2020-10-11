@@ -1,7 +1,7 @@
 import React from "react";
 import "./Proj.css";
 
-export default function Proj(props) {
+export default function Proj({ info }) {
     /* constructor(props) {
         super(props)
         this.state = {
@@ -13,11 +13,11 @@ export default function Proj(props) {
         <div className="Proj">
             <div className="cover">
 
-                <div className="proj-image"><img src={props.image} className="proj-image" alt="project cover" /></div>
+                <div className="proj-image"><img src={info.imgUrl} className="proj-image" alt="project cover" /></div>
             </div>
             <div className="hidden">
-            <h2>{props.name}</h2>
-                {props.descrip}
+            <h2>{info.projectName}</h2>
+                {info.description}
             </div>
         </div>
         

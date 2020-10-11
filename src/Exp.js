@@ -1,13 +1,13 @@
 import React from "react";
 import "./Exp.css";
 
-export default function Exp(props) {
+export default function Exp({ info }) {
 
     return (
         <div className="Exp">
-            <div className="date">{props.date}</div> 
-            <div className="exp-descrip">{props.descrip}</div> 
-            <div className="header">{props.title}</div>
+            <div className="date">{info.date}</div> 
+            <div className="exp-descrip">{info.tags}</div> 
+            <div className="header">{info.name}</div>
         </div>
     );
 }
